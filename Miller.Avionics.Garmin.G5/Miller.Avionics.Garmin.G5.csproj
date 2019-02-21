@@ -76,10 +76,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainDisplay.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -88,19 +84,12 @@
     <Compile Include="Horizon.xaml.cs">
       <DependentUpon>Horizon.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HorizonModel.cs" />
-    <Compile Include="BankAngleToPathConverter.cs" />
-    <Compile Include="MainDisplay.xaml.cs">
-      <DependentUpon>MainDisplay.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Page Include="MainWindowTest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainDisplayModel.cs" />
     <Compile Include="MainWindowTest.xaml.cs">
       <DependentUpon>MainWindowTest.xaml</DependentUpon>
     </Compile>
